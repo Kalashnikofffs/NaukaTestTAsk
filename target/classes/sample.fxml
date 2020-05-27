@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <children>
+        <SplitPane dividerPositions="0.29797979797979796" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <AnchorPane fx:id="anchorPane" maxWidth="-Infinity" minHeight="0.0" minWidth="182.0" prefHeight="798.0" prefWidth="182.0" SplitPane.resizableWithParent="false">
+                    <children>
+                        <Text layoutX="36.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Департамент" wrappingWidth="90.98307228088379" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="55.41692771911622">
+                     <font>
+                        <Font name="SansSerif Regular" size="14.0" />
+                     </font></Text>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="714.0" prefWidth="1508.0">
+                    <children>
+                        <TabPane fx:id="n1" layoutX="10.0" layoutY="28.0" prefHeight="770.0" prefWidth="1508.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0">
+                            <tabs>
+                                <Tab text="Январь">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <TableView fx:id="tableEmployees" editable="true" prefHeight="738.4" prefWidth="1508.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                    <columns>
+                                                        <TableColumn fx:id="department" prefWidth="150" text="Департамент" />
+                                                        <TableColumn fx:id="secondName" prefWidth="150" text="ФИО" />
+
+                                                        <TableColumn fx:id="tablenumber" prefWidth="75" text="Табельный номер" />
+
+                                                        <TableColumn fx:id="day_1" prefWidth="25" text="1" />
+                                                        <TableColumn fx:id="day_2" prefWidth="25" text="2" />
+                                                        <TableColumn fx:id="day_3" prefWidth="25" text="3" />
+                                                        <TableColumn fx:id="day_4" prefWidth="25" text="4" />
+                                                        <TableColumn fx:id="day_5" prefWidth="25" text="5" />
+                                                        <TableColumn fx:id="day_6" prefWidth="25" text="6" />
+                                                        <TableColumn fx:id="day_7" prefWidth="25" text="7" />
+                                                        <TableColumn fx:id="day_8" prefWidth="25" text="8" />
+                                                        <TableColumn fx:id="day_9" prefWidth="25" text="9" />
+                                                        <TableColumn fx:id="day_10" prefWidth="25" text="10" />
+                                                        <TableColumn fx:id="day_11" prefWidth="25" text="11" />
+                                                        <TableColumn fx:id="day_12" prefWidth="25" text="12" />
+                                                        <TableColumn fx:id="day_13" prefWidth="25" text="13" />
+                                                        <TableColumn fx:id="day_14" prefWidth="25" text="14" />
+                                                        <TableColumn fx:id="day_15" prefWidth="25" text="15" />
+                                                        <TableColumn fx:id="day_16" prefWidth="25" text="16" />
+                                                        <TableColumn fx:id="day_17" prefWidth="25" text="17" />
+                                                        <TableColumn fx:id="day_18" prefWidth="25" text="18" />
+                                                        <TableColumn fx:id="day_19" prefWidth="25" text="19" />
+                                                        <TableColumn fx:id="day_20" prefWidth="25" text="20" />
+                                                        <TableColumn fx:id="day_21" prefWidth="25" text="21" />
+                                                        <TableColumn fx:id="day_22" prefWidth="25" text="22" />
+                                                        <TableColumn fx:id="day_23" prefWidth="25" text="23" />
+                                                        <TableColumn fx:id="day_24" prefWidth="25" text="24" />
+                                                        <TableColumn fx:id="day_25" prefWidth="25" text="25" />
+                                                        <TableColumn fx:id="day_26" prefWidth="25" text="26" />
+                                                        <TableColumn fx:id="day_27" prefWidth="25" text="27" />
+                                                        <TableColumn fx:id="day_28" prefWidth="25" text="28" />
+                                                        <TableColumn fx:id="day_29" prefWidth="25" text="29" />
+                                                        <TableColumn fx:id="day_30" prefWidth="25" text="30" />
+                                                        <TableColumn fx:id="day_31" prefWidth="25" text="31" />
+                                                        <TableColumn fx:id="count" prefWidth="75.0" text="Итог" />
+                                                    </columns>
+                                                </TableView>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                            </tabs>
+                        </TabPane>
+                    </children>
+                </AnchorPane>
+            </items>
+            <contextMenu>
+                <ContextMenu>
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Help" />
+                    </items>
+                </ContextMenu>
+            </contextMenu>
+        </SplitPane>
+      <MenuBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="33" prefWidth="1700.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Управление">
+               <items>
+                  <MenuItem fx:id="createNewDepartment" mnemonicParsing="false" text="Добавить департамент" />
+                  <MenuItem fx:id="createNewEmployee" mnemonicParsing="false" text="Добавить сотрудника" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="readme" mnemonicParsing="false" text="О программе" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>
