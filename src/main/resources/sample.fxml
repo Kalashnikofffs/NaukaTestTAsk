@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="1500" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
     <children>
         <SplitPane dividerPositions="0.29797979797979796" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <items>
@@ -40,38 +40,38 @@
 
                                                         <TableColumn fx:id="tablenumber" prefWidth="75" text="Табельный номер" />
 
-                                                        <TableColumn fx:id="day_1" prefWidth="25" text="1" />
-                                                        <TableColumn fx:id="day_2" prefWidth="25" text="2" />
-                                                        <TableColumn fx:id="day_3" prefWidth="25" text="3" />
-                                                        <TableColumn fx:id="day_4" prefWidth="25" text="4" />
-                                                        <TableColumn fx:id="day_5" prefWidth="25" text="5" />
-                                                        <TableColumn fx:id="day_6" prefWidth="25" text="6" />
-                                                        <TableColumn fx:id="day_7" prefWidth="25" text="7" />
-                                                        <TableColumn fx:id="day_8" prefWidth="25" text="8" />
-                                                        <TableColumn fx:id="day_9" prefWidth="25" text="9" />
-                                                        <TableColumn fx:id="day_10" prefWidth="25" text="10" />
-                                                        <TableColumn fx:id="day_11" prefWidth="25" text="11" />
-                                                        <TableColumn fx:id="day_12" prefWidth="25" text="12" />
-                                                        <TableColumn fx:id="day_13" prefWidth="25" text="13" />
-                                                        <TableColumn fx:id="day_14" prefWidth="25" text="14" />
-                                                        <TableColumn fx:id="day_15" prefWidth="25" text="15" />
-                                                        <TableColumn fx:id="day_16" prefWidth="25" text="16" />
-                                                        <TableColumn fx:id="day_17" prefWidth="25" text="17" />
-                                                        <TableColumn fx:id="day_18" prefWidth="25" text="18" />
-                                                        <TableColumn fx:id="day_19" prefWidth="25" text="19" />
-                                                        <TableColumn fx:id="day_20" prefWidth="25" text="20" />
-                                                        <TableColumn fx:id="day_21" prefWidth="25" text="21" />
-                                                        <TableColumn fx:id="day_22" prefWidth="25" text="22" />
-                                                        <TableColumn fx:id="day_23" prefWidth="25" text="23" />
-                                                        <TableColumn fx:id="day_24" prefWidth="25" text="24" />
-                                                        <TableColumn fx:id="day_25" prefWidth="25" text="25" />
-                                                        <TableColumn fx:id="day_26" prefWidth="25" text="26" />
-                                                        <TableColumn fx:id="day_27" prefWidth="25" text="27" />
-                                                        <TableColumn fx:id="day_28" prefWidth="25" text="28" />
-                                                        <TableColumn fx:id="day_29" prefWidth="25" text="29" />
-                                                        <TableColumn fx:id="day_30" prefWidth="25" text="30" />
-                                                        <TableColumn fx:id="day_31" prefWidth="25" text="31" />
-                                                        <TableColumn fx:id="count" prefWidth="75.0" text="Итог" />
+<!--                                                        <TableColumn fx:id="day_1" prefWidth="25" text="1" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_2" prefWidth="25" text="2" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_3" prefWidth="25" text="3" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_4" prefWidth="25" text="4" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_5" prefWidth="25" text="5" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_6" prefWidth="25" text="6" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_7" prefWidth="25" text="7" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_8" prefWidth="25" text="8" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_9" prefWidth="25" text="9" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_10" prefWidth="25" text="10" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_11" prefWidth="25" text="11" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_12" prefWidth="25" text="12" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_13" prefWidth="25" text="13" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_14" prefWidth="25" text="14" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_15" prefWidth="25" text="15" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_16" prefWidth="25" text="16" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_17" prefWidth="25" text="17" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_18" prefWidth="25" text="18" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_19" prefWidth="25" text="19" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_20" prefWidth="25" text="20" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_21" prefWidth="25" text="21" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_22" prefWidth="25" text="22" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_23" prefWidth="25" text="23" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_24" prefWidth="25" text="24" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_25" prefWidth="25" text="25" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_26" prefWidth="25" text="26" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_27" prefWidth="25" text="27" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_28" prefWidth="25" text="28" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_29" prefWidth="25" text="29" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_30" prefWidth="25" text="30" resizable="false" sortable="false"/>-->
+<!--                                                        <TableColumn fx:id="day_31" prefWidth="25" text="31" resizable="false" sortable="false"/>-->
+                                                        <TableColumn fx:id="count" prefWidth="75.0" text="Итог"  sortable="false" />
                                                     </columns>
                                                 </TableView>
                                             </children>

@@ -12,6 +12,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import nodes.DayColumnModel;
 import nodes.myDepartmentButton;
 
 import java.io.IOException;
@@ -64,10 +65,24 @@ public class MainController {
 
 
     private ObservableList<Employee> usersData = FXCollections.observableArrayList();
+    private List<DayColumnModel> columnsSet = new ArrayList<>();
 
 
     @FXML
     void initialize() {
+
+       //Here draws the day columns using pre-created model (DayColumnModel)
+        for (int i = 1; i <= 31 ; i++) {
+            DayColumnModel dayColumnModel = new DayColumnModel(i);
+            tableEmployees.getColumns().add(dayColumnModel);
+            columnsSet.add(dayColumnModel);
+        }
+        //And now we put them into a List for updating values
+        int i = 0;
+        for (DayColumnModel d: columnsSet) {
+            System.out.println(columnsSet.get(i).getText());
+            i++;
+        }
 
         initData(); // Здесь ЭкакбыЭ обновляем базу данных .... Но позже надо будет решить  - необязаьельно обновлять базу все время и плодить куча обьектов сотрудников
         secondName.setCellValueFactory(new PropertyValueFactory<>("secondName"));
